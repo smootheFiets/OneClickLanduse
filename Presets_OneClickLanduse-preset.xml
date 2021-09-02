@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="smootheFiets"
+  version="0.1_2021-09-02"
+  shortdescription="One click landuse"
+  description="Shortcut presets to use with a single click, for
+	       refinement of 3dShapes landuse">
+
+  <group name="One click landuse" >
+
+    <item name="Acker" type="closedway">
+      <key key="landuse" value="farmland" />
+      <key key="source" value="" />
+    </item>
+
+    <item name="Bauernhof" type="closedway">
+      <key key="landuse" value="farmyard" />
+      <key key="source" value="" />
+    </item>
+
+    <item name="Weide" type="closedway">
+      <key key="landuse" value="meadow" />
+      <key key="source" value="" />
+    </item>
+
+    <item name="Wohngebiet" type="closedway">
+      <key key="landuse" value="residential" />
+      <key key="source" value="" />
+    </item>
+
+  </group>
+</presets>
